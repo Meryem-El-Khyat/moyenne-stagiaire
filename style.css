@@ -56,7 +56,8 @@ input {
         width: calc(100% - 16px);
     }
     fieldset  legend h1 {
-        font-size: 15px;
+        font-size: 17px;
+        margin-left:20px;
     }
 }
 
