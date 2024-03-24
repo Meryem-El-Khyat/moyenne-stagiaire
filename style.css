@@ -1,0 +1,63 @@
+body {
+    display: grid;
+    place-items: center;
+}
+fieldset {
+    
+    background:linear-gradient(to bottom,rgb(222, 232, 235), rgb(216, 215, 215));
+    border-radius:50px;
+}
+fieldset  legend h1 {
+    margin-top: 9px;
+}
+fieldset form {
+    display: block;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+    padding: 0px 20px;
+}
+fieldset form label {
+    text-transform: capitalize;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.nompre1{
+    margin-right: 58px;
+}
+.nompre2{
+    margin-right: 78px;
+}
+input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 240px;
+}
+.error-message {
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+    fieldset {
+        width: 90%; 
+    }
+
+    input[type="text"] {
+        width: calc(100% - 16px);
+    }
+    fieldset  legend h1 {
+        font-size: 18px;
+    }
+}
+
+
